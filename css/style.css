@@ -74,12 +74,12 @@ body{
 
 .nav-menu a {
 	padding: 0 8px 0px 8px;
-  text-decoration: none;
-  color: #f1f1f1;
-  font-weight: bold;
-  font-size: 16px;
-  letter-spacing: 3px;
-  transition: all 0.3s ease-in-out;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 3px;
+	transition: all 0.3s ease-in-out;
 }
 
 .nav-menu a:hover{
@@ -154,6 +154,17 @@ body{
 .content-detail{
   width: 67%;
   position: relative;
+}
+
+.content-detail:first-child{
+  border-left: 5px solid #FBD786;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.content-detail:last-child{
+  border-right: 5px solid #FBD786;
+  text-align: left;
   padding-left: 25px;
 }
 
@@ -166,6 +177,11 @@ body{
 .content-detail p{
   line-height: 25px;
   color: #484848;
+}
+
+.content-button:last-child{
+  right: 0;
+  margin-right: 25px;
 }
 
 .content-button{

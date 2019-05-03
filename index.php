@@ -17,7 +17,10 @@
         <div class="container">
 
             <a style="text-decoration: none;color:#000;" href="#">
-              <div class="content-post">
+              <div class="content-post" data-aos="fade-right"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="750">
                   <div class="content-gambar">
                       <div class="gradient">
                       </div>
@@ -36,12 +39,11 @@
             </a>
 
             <a style="text-decoration: none;color:#000;" href="#">
-              <div class="content-post">
-                  <div class="content-gambar">
-                      <div class="gradient">
-                      </div>
-                      <img src="img/kampus.jpg">
-                  </div>
+              <div class="content-post" data-aos="fade-left"
+                                        data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine"
+                                        data-aos-duration="750">
+
                   <div class="content-detail">
                       <h1>Judul Artikel Kedua</h1>
                       <p>
@@ -51,6 +53,13 @@
                         <div class="btn">more...</div>
                       </div>
                   </div>
+
+                  <div class="content-gambar">
+                      <div class="gradient">
+                      </div>
+                      <img src="img/kampus.jpg">
+                  </div>
+
               </div>
             </a>
 
@@ -60,7 +69,7 @@
     <!-- footer -->
     <footer class="footer-area">
       <p>
-        Created By
+        Copyright &copy; 2019 Created By
         <a href="https://github.com/Adivaprayoga" target="_blank">Adivaprayoga</a>.
       </p>
     </footer>
