@@ -145,6 +145,7 @@ body{
 }
 
 .content-detail{
+  position: relative;
   padding-left: 25px;
 }
 
@@ -158,6 +159,8 @@ body{
 }
 
 .content-button{
+  bottom: 0;
+  position: absolute;
   padding: 10px;
   width: 150px;
   background: #222;
