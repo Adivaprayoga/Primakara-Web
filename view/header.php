@@ -26,13 +26,13 @@
                           <a href="/">Home</a>
                       </li>
                       <li>
-                          <a href="#">Profile</a>
+                          <a href="#">Galeri</a>
                       </li>
                       <li>
-                          <a href="#">Program Studi</a>
+                          <a href="#">Prodi</a>
                       </li>
                       <li>
-                          <a href="#">Gallery</a>
+                          <a href="#">About Us</a>
                       </li>
                   </ul>
               </nav>

@@ -79,6 +79,11 @@ body{
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-menu a:hover{
+  color: #FBD786;
 }
 
 .nav-menu a:hover{
@@ -89,6 +94,7 @@ body{
 .banner{
    background: linear-gradient(45deg, rgb(15,32,39, 1), rgb(251,215,134, 0.5)), url('../img/a.jpg') no-repeat;
    background-size: cover;
+   background-attachment: fixed;
 }
 
 .banner-content {
@@ -134,6 +140,7 @@ body{
 }
 
 .content-gambar{
+  width: 33%;
   position: relative;
   overflow: hidden;
 }
@@ -145,6 +152,7 @@ body{
 }
 
 .content-detail{
+  width: 67%;
   position: relative;
   padding-left: 25px;
 }
@@ -152,10 +160,12 @@ body{
 .content-detail h1{
   margin: 0;
   font-weight: lighter;
+  color: #222;
 }
 
 .content-detail p{
   line-height: 25px;
+  color: #484848;
 }
 
 .content-button{
@@ -189,7 +199,7 @@ a .content-post:hover > .content-gambar img{
   width: 442px;
   height: 317px;
   position: absolute;
-  background: linear-gradient(45deg, #0F2027, rgb(251,215,134, 0.5));
+  background: linear-gradient(45deg, rgb(189,195,199, 0.5), rgb(251,215,134, 0.5));
   z-index: 1;
 }
 
