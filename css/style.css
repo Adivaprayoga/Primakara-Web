@@ -12,7 +12,7 @@ body{
   margin: 0;
   padding: 0;
   position: relative;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container{
@@ -20,7 +20,7 @@ body{
   margin: 0 auto;
 }
 
-/* Header */
+/* HEADER */
 
 .main-menu{
   padding-top: 20px;
@@ -77,7 +77,6 @@ body{
   color: #f1f1f1;
   font-weight: bold;
   font-size: 16px;
-  /* text-transform: uppercase; */
   letter-spacing: 3px;
 }
 
@@ -85,7 +84,7 @@ body{
 
 }
 
-/* Banner */
+/* BANNER */
 .banner{
    background: linear-gradient(45deg, rgb(15,32,39, 1), rgb(251,215,134, 0.5)), url('../img/a.jpg') no-repeat;
    background-size: cover;
@@ -119,21 +118,67 @@ body{
 }
 
 @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
 }
 
-.main{
-  padding: 80px 0;
+
+/* CONTENT POST */
+
+.content-post{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
 }
+
+.content-gambar{
+  overflow: hidden;
+}
+
+.content-gambar img{
+  width: 100%;
+  transform: scale(1.1);
+}
+
+.content-detail{
+  padding-left: 25px;
+}
+
+.content-detail h1{
+  margin: 0;
+  font-weight: lighter;
+}
+
+.content-detail p{line-height: 25px;}
+
+.content-button{
+  padding: 10px;
+  width: 150px;
+  background: #222;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.content-button a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.content-gambar img:hover{
+  transform: scale(1.2);
+}
+
+
+/* FOOTER */
 
 .footer-area{
 	background-color: #222;
 	color: #fff;
-	padding-top: 10px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	padding: 10px;
 	width: 100%;
 	text-align: center;
 }

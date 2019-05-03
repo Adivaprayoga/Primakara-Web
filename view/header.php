@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <title>STMIK Primakara | Adivaprayoga</title>
     <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
@@ -25,7 +26,7 @@
                           <a href="/">Home</a>
                       </li>
                       <li>
-                          <a href="../pages/profile.php">Profile</a>
+                          <a href="#">Profile</a>
                       </li>
                       <li>
                           <a href="#">Program Studi</a>
