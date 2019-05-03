@@ -55,6 +55,7 @@ body{
 
 .header.header-scrolled{
 	background-color: rgb(15,32,39, 0.7);
+  z-index: 2;
 }
 
 .nav-menu{
@@ -133,12 +134,14 @@ body{
 }
 
 .content-gambar{
+  position: relative;
   overflow: hidden;
 }
 
 .content-gambar img{
   width: 100%;
   transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .content-detail{
@@ -150,7 +153,9 @@ body{
   font-weight: lighter;
 }
 
-.content-detail p{line-height: 25px;}
+.content-detail p{
+  line-height: 25px;
+}
 
 .content-button{
   padding: 10px;
@@ -159,19 +164,31 @@ body{
   text-align: center;
   border-radius: 3px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.content-button a{
+.content-button .btn{
   color: #fff;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
 }
 
-.content-gambar img:hover{
-  transform: scale(1.2);
+a .content-post:hover > .content-gambar img{
+  transform: scale(1.3);
 }
 
+ a .content-post:hover > .content-detail .content-button {
+  background: #FBD786;
+}
+
+.gradient{
+  width: 442px;
+  height: 317px;
+  position: absolute;
+  background: linear-gradient(45deg, #0F2027, rgb(251,215,134, 0.5));
+  z-index: 1;
+}
 
 /* FOOTER */
 

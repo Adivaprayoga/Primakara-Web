@@ -16,45 +16,53 @@
     <section id="posts" class="posts">
         <div class="container">
 
-            <div class="content-post">
-                <div class="content-gambar">
-                    <img src="img/c.jpg">
-                </div>
-                <div class="content-detail">
-                    <h1>Keseruan Tes Serentak Pendaftaran Gelombang I</h1>
-                    <p>
-                      Hai Primers,
-                      siapa nih yang kemarin ikut seru-seruan bareng STMIK Primakara
-                      di tes serentak Pendaftaran Gelombang 1?
-                      yuk kita simak keseruannya.
-                      Tonton Juga Videonya:
-                      INGIN MENDAFTAR JADI MAHASISWA STMIK PRIMAKARA?
-                    </p>
-                    <div class="content-button">
-                      <a href="#">Read</a>
-                    </div>
-                </div>
-            </div>
+            <a style="text-decoration: none;color:#000;" href="#">
+              <div class="content-post">
+                  <div class="content-gambar">
+                      <div class="gradient">
+                      </div>
+                      <img src="img/c.jpg">
+                  </div>
+                  <div class="content-detail">
+                      <h1>Keseruan Tes Serentak Pendaftaran </h1>
+                      <p>
+                        Hai Primers,
+                        siapa nih yang kemarin ikut seru-seruan bareng STMIK Primakara
+                        di tes serentak Pendaftaran Gelombang 1?
+                        yuk kita simak keseruannya.
+                        Tonton Juga Videonya:
+                        INGIN MENDAFTAR JADI MAHASISWA STMIK PRIMAKARA?
+                      </p>
+                      <div class="content-button">
+                        <div class="btn">Read</div>
+                      </div>
+                  </div>
+              </div>
+            </a>
 
-            <div class="content-post">
-                <div class="content-gambar">
-                    <img src="img/c.jpg">
-                </div>
-                <div class="content-detail">
-                    <h1>Keseruan Tes Serentak Pendaftaran Gelombang I</h1>
-                    <p>
-                      Hai Primers,
-                      siapa nih yang kemarin ikut seru-seruan bareng STMIK Primakara
-                      di tes serentak Pendaftaran Gelombang 1?
-                      yuk kita simak keseruannya.
-                      Tonton Juga Videonya:
-                      INGIN MENDAFTAR JADI MAHASISWA STMIK PRIMAKARA?
-                    </p>
-                    <div class="content-button">
-                      <a href="#">Read</a>
-                    </div>
-                </div>
-            </div>
+            <a style="text-decoration: none;color:#000;" href="#">
+              <div class="content-post">
+                  <div class="content-gambar">
+                      <div class="gradient">
+                      </div>
+                      <img src="img/c.jpg">
+                  </div>
+                  <div class="content-detail">
+                      <h1>Keseruan Tes Serentak Pendaftaran</h1>
+                      <p>
+                        Hai Primers,
+                        siapa nih yang kemarin ikut seru-seruan bareng STMIK Primakara
+                        di tes serentak Pendaftaran Gelombang 1?
+                        yuk kita simak keseruannya.
+                        Tonton Juga Videonya:
+                        INGIN MENDAFTAR JADI MAHASISWA STMIK PRIMAKARA?
+                      </p>
+                      <div class="content-button">
+                        <div class="btn">Read</div>
+                      </div>
+                  </div>
+              </div>
+            </a>
 
         </div>
     </section>
