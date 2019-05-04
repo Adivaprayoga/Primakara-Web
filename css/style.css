@@ -83,7 +83,7 @@ body{
 }
 
 .nav-menu a:hover{
-  color: #FBD786;
+
 }
 
 .nav-menu a:hover{
@@ -92,7 +92,7 @@ body{
 
 /* BANNER */
 .banner{
-   background: linear-gradient(45deg, rgb(15,32,39, 1), rgb(251,215,134, 0.5)), url('../img/a.jpg') no-repeat;
+   background: linear-gradient(45deg, rgb(15,32,39, 1), rgb(44,83,100, 0.5)), url('../img/a.jpg') no-repeat;
    background-size: cover;
    background-attachment: fixed;
 }
@@ -121,7 +121,7 @@ body{
 }
 
 .scroll img{
-  width: 50px;
+  width: 30px;
 }
 
 @keyframes action {
@@ -130,13 +130,13 @@ body{
 }
 
 
-/* CONTENT POST */
+/* ARTIKEL POST */
 
 .content-post{
   display: flex;
   padding-top: 50px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #ccc;
+  /* border-bottom: 1px solid #ccc; */
 }
 
 .content-gambar{
@@ -157,13 +157,13 @@ body{
 }
 
 .content-detail:first-child{
-  border-left: 5px solid #FBD786;
+  /* border-left: 5px solid #2C5364; */
   text-align: right;
   padding-right: 25px;
 }
 
 .content-detail:last-child{
-  border-right: 5px solid #FBD786;
+  /* border-right: 5px solid #2C5364; */
   text-align: left;
   padding-left: 25px;
 }
@@ -172,6 +172,7 @@ body{
   margin: 0;
   font-weight: lighter;
   color: #222;
+  transition: all 0.3s ease-in-out;
 }
 
 .content-detail p{
@@ -189,15 +190,17 @@ body{
   position: absolute;
   padding: 10px;
   width: 150px;
-  background: #222;
+  background: none;
+  color: black;
+  border: 3px solid #2C5364;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .content-button .btn{
-  color: #fff;
+  color: #2C5364;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
@@ -208,16 +211,27 @@ a .content-post:hover > .content-gambar img{
 }
 
  a .content-post:hover > .content-detail .content-button {
-  background: #FBD786;
+  background: #2C5364;
+}
+
+a .content-post:hover > .content-detail .content-button .btn{
+  color: #fff;
+}
+
+a .content-post:hover > .content-detail h1{
+  color: #2C5364;
 }
 
 .gradient{
   width: 442px;
   height: 317px;
   position: absolute;
-  background: linear-gradient(45deg, rgb(189,195,199, 0.5), rgb(251,215,134, 0.5));
+  background: linear-gradient(90deg, rgb(15,32,39, 0.5), rgb(44,83,100, 0.5));
   z-index: 1;
 }
+
+/* ABOUT US */
+
 
 /* FOOTER */
 

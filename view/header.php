@@ -24,7 +24,7 @@
               <nav class="container-nav-menu">
                   <ul class="nav-menu">
                       <li>
-                          <a href="/">Home</a>
+                          <a href="#posts">Artikel</a>
                       </li>
                       <li>
                           <a href="#">Galeri</a>
