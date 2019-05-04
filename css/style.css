@@ -303,6 +303,29 @@ a .content-post:hover > .content-detail h1{
   margin-left: 25px;
 }
 
+/* GALLERY */
+
+.galeri-content{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content-picture{
+  overflow: hidden;
+}
+
+.content-picture .picture img{
+  width: 300px;
+  padding: 10px;
+}
+
+.slick-prev,
+.slick-arrow,
+.slick-dots{
+  display: none !important;
+}
+
 /* FOOTER */
 
 .footer-area{
