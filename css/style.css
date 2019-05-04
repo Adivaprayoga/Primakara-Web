@@ -12,7 +12,7 @@ body{
   margin: 0;
   padding: 0;
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -106,11 +106,10 @@ body{
 }
 
 .banner-content h1{
-  font-family: 'Gugi', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
   color: #f1f1f1;
   font-weight: normal;
   text-align: center;
-  letter-spacing: 2px;
 }
 
 .scroll{
@@ -143,6 +142,7 @@ body{
   width: 33%;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .content-gambar img{
@@ -175,9 +175,18 @@ body{
   transition: all 0.3s ease-in-out;
 }
 
+.content-detail .h1-left{
+  text-align: left;
+}
+
+.content-detail .h1-right{
+  text-align: right;
+}
+
 .content-detail p{
-  line-height: 25px;
+  line-height: 20px;
   color: #484848;
+  font-size: 13px;
 }
 
 .content-button:last-child{
@@ -230,8 +239,69 @@ a .content-post:hover > .content-detail h1{
   z-index: 1;
 }
 
-/* ABOUT US */
+.subtitle-post{
+  letter-spacing: 5px;
+  color: #484848;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+}
 
+.main-title-post{
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: lighter;
+  color: #222;
+  text-align: center;
+}
+
+/* ABOUT US */
+.banner-content-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  position: relative;
+}
+
+.banner-content-page h1{
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #f1f1f1;
+  font-weight: normal;
+  text-align: center;
+}
+
+.aboutus-content{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aboutus-gambar{
+  width: 33%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.aboutus-gambar img{
+  width: 100%;
+}
+
+.aboutus-detail{
+  width: 67%;
+}
+
+.aboutus-detail p,
+.aboutus-detail h3{
+  line-height: 20px;
+  color: #484848;
+  font-size: 13px;
+  margin-top: 0;
+  margin-left: 25px;
+}
 
 /* FOOTER */
 

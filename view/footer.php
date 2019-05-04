@@ -1,3 +1,11 @@
+    <!-- footer -->
+    <footer class="footer-area">
+      <p>
+        Copyright &copy; 2019 Created By
+        <a href="https://github.com/Adivaprayoga" target="_blank">Adivaprayoga</a>.
+      </p>
+    </footer>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/typeit@6.0.2/dist/typeit.min.js" /></script>
