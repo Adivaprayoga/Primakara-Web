@@ -5,7 +5,7 @@
 <section class="banner">
     <div class="container">
         <div class="banner-content-page">
-            <h1>Tentang Primakara</h1>
+            <h1 data-aos="flip-left">About Us</h1>
         </div>
     </div>
 </section>
@@ -14,7 +14,7 @@
 <section id="aboutus" class="aboutus">
     <div class="container">
 
-      <h3 class="subtitle-post" data-aos="fade-up">About Us</h6>
+      <h3 class="subtitle-post" data-aos="fade-up">Primakara</h6>
       <h1 class="main-title-post" data-aos="fade-down">Apa Itu Primakara?</h1>
 
         <div class="aboutus-content">

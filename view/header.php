@@ -26,10 +26,10 @@
                           <a href="/">Home</a>
                       </li>
                       <li>
-                          <a href="#">Galeri</a>
+                          <a href="galeri.php">Galeri</a>
                       </li>
                       <li>
-                          <a href="#">Prodi</a>
+                          <a href="prodi.php">Prodi</a>
                       </li>
                       <li>
                           <a href="aboutus.php">About Us</a>
