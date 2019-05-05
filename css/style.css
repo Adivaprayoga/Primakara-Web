@@ -285,7 +285,7 @@ a .content-post:hover > .content-detail h1{
   overflow: hidden;
   border-radius: 10px;
 }
-
+<img src="img/kampus.jpg">
 .aboutus-gambar img{
   width: 100%;
 }
@@ -326,9 +326,41 @@ a .content-post:hover > .content-detail h1{
   display: none !important;
 }
 
+/* PRODI */
+
+.prodi-content{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.prodi-grid{
+  width: 325px;
+  margin: auto;
+  padding: 10px;
+}
+
+.prodi-picture{
+  overflow: hidden;
+}
+
+.prodi-picture img{
+  width: 300px;
+}
+
+.prodi-grid h1{
+  font-size: 16px;
+}
+
+.prodi-grid p{
+  font-size: 12px;
+  line-height: 20px;
+}
+
 /* FOOTER */
 
 .footer-area{
+	font-size: 12px;
 	background-color: #222;
 	color: #fff;
 	padding: 10px;

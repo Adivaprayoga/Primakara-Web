@@ -10,7 +10,7 @@
     </div>
 </section>
 
-<!-- ABOUT US -->
+<!-- GALERI -->
 <section id="galeri" class="galeri">
     <div class="container">
 
